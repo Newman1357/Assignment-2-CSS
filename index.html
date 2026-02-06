@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Assignment - Solar System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="logo.svg" alt="Planet Creative World Logo">
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Explore Our Solar System Through Data</h1>
+        <p>Understand the planets not just by name, but by measurable facts. From size and mass to gravity and density,
+          this page breaks down the solar system in a clear, data-driven way.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary">Explore the Data</a>
+          <a href="#contact" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="globe.png" alt="Solar System Globe" class="globe-img">
+      </div>
+    </div>
+  </section>
+
+  <section class="video-section" id="video-section">
+    <div class="container">
+      <h2 class="section-title">How Planetary Data Helps Us Understand Space</h2>
+      <p class="section-desc">
+        Planetary science goes beyond images. Comparing <span class="highlight">mass</span>, <span
+          class="highlight">diameter</span>, <span class="highlight">gravity</span>, and <span
+          class="highlight">density</span>, we gain insight into how planets form, behave, and interact within the solar
+        system.
+      </p>
+
+      <div class="video-wrapper">
+        <video controls autoplay muted loop>
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="container">
+      <h2 class="section-title">Visualizing the Differences Between Planets</h2>
+      <p class="section-desc">
+        Each planet in our solar system has unique physical characteristics. Visual comparisons help highlight how
+        vastly different terrestrial planets are from gas giants and ice giants.
+      </p>
+
+      <div class="image-grid">
+        <div class="grid-item">
+          <img src="image1.png" alt="Planet Visualization 1">
+        </div>
+        <div class="grid-item">
+          <img src="image2.png" alt="Planet Visualization 2">
+        </div>
+        <div class="grid-item">
+          <img src="image3.png" alt="Planet Visualization 3">
+        </div>
+        <div class="grid-item">
+          <img src="image4.png" alt="Planet Visualization 4">
+        </div>
+        <div class="grid-item">
+          <img src="image5.png" alt="Planet Visualization 5">
+        </div>
+        <div class="grid-item">
+          <img src="image6.png" alt="Planet Visualization 6">
+        </div>
+        <div class="grid-item">
+          <img src="image7.png" alt="Planet Visualization 7">
+        </div>
+        <div class="grid-item">
+          <img src="image8.png" alt="Planet Visualization 8">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="table-section">
+    <div class="container">
+      <h2 class="section-title">Planetary Facts at a Glance</h2>
+      <p class="section-desc">
+        Below is a comparative table of major planets in our solar system. The data highlights key physical properties
+        used by astronomers and researchers worldwide.
+      </p>
+      <p class="table-sub-label">Data about the planets of our solar system (Planetary facts taken from NASA)</p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2"></th>
+              <th>Name</th>
+              <th>Mass (10<sup>24</sup>kg)</th>
+              <th>Diameter (km)</th>
+              <th>Density (kg/m<sup>3</sup>)</th>
+              <th>Gravity (m/s<sup>2</sup>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Terrestrial Planets -->
+            <tr class="odd">
+              <td rowspan="4" colspan="2" class="category">Terrestrial Planets</td>
+              <td>Mercury</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr class="even">
+              <td>Venus</td>
+              <td>4.87</td>
+              <td>12,104</td>
+              <td>5243</td>
+              <td>8.9</td>
+            </tr>
+            <tr class="odd">
+              <td>Earth</td>
+              <td>5.97</td>
+              <td>12,756</td>
+              <td>5514</td>
+              <td>9.8</td>
+            </tr>
+            <tr class="even">
+              <td>Mars</td>
+              <td>0.642</td>
+              <td>6,792</td>
+              <td>3933</td>
+              <td>3.7</td>
+            </tr>
+
+            <!-- Jovian Planets -->
+            <tr class="odd">
+              <td rowspan="4" class="category">Jovian Planets</td>
+              <td rowspan="2" class="subcategory">Gas Giants</td>
+              <td>Jupiter</td>
+              <td>1898</td>
+              <td>142,984</td>
+              <td>1326</td>
+              <td>23.1</td>
+            </tr>
+            <tr class="even">
+              <td>Saturn</td>
+              <td>568</td>
+              <td>120,536</td>
+              <td>687</td>
+              <td>9.0</td>
+            </tr>
+            <tr class="odd">
+              <td rowspan="2" class="subcategory">Ice Giants</td>
+              <td>Uranus</td>
+              <td>86.8</td>
+              <td>51,118</td>
+              <td>1271</td>
+              <td>8.7</td>
+            </tr>
+            <tr class="even">
+              <td>Neptune</td>
+              <td>102</td>
+              <td>49,528</td>
+              <td>1638</td>
+              <td>11.0</td>
+            </tr>
+
+            <!-- Dwarf Planets -->
+            <tr class="odd">
+              <td colspan="2" class="category">Dwarf Planets</td>
+              <td>Pluto</td>
+              <td>0.0146</td>
+              <td>2,370</td>
+              <td>2095</td>
+              <td>0.7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section" id="form">
+    <div class="container">
+      <h2 class="section-title">Have Questions About Planetary Science?</h2>
+      <p class="section-desc">
+        Interested in learning more about space, astronomy, or how planetary data is collected and analyzed? Reach out
+        and we'll get back to you.
+      </p>
+
+      <form class="contact-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fullname">Full Name<span class="required">*</span></label>
+            <input type="text" id="fullname" name="fullname" placeholder="Full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email<span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="city">City<span class="required">*</span></label>
+            <select id="city" name="city" required>
+              <option value="" disabled selected>Choose city</option>
+              <option value="Benin">Benin</option>
+              <option value="Ikeja">Ikeja</option>
+              <option value="Warri">Warri</option>
+              <option value="Asaba">Asaba</option>
+              <option value="Owerri">Owerri</option>
+              <option value="Uyo">Uyo</option>
+              <option value="Oron">Oron</option>
+              <option value="Aba">Aba</option>
+              <option value="FCT">FCT</option>
+              <option value="Enugu">Enugu</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number<span class="required">*</span></label>
+            <input type="number" name="phone" placeholder="Enter your phone number." maxlength="11"
+              required>
+          </div>
+        </div>
+
+        <div class="form-group full-width">
+          <label for="message">Message<span class="required">*</span></label>
+          <textarea name="message" rows="5" placeholder="Enter your message" required
+            maxlength="100"></textarea>
+          <span class="char-count">100 characters</span>
+        </div>
+
+        <div class="form-grid options-grid">
+          <div class="form-group">
+            <label>How should we contact you?</label>
+            <div class="radio-group">
+              <label class="radio-item">
+                <input type="radio" name="contact" value="phone" required> Phone
+              </label>
+              <label class="radio-item">
+                <input type="radio" name="contact" value="email"> Email
+              </label>
+              <label class="radio-item">
+                <input type="radio" name="contact" value="both"> Both
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>How did you hear about us?</label>
+            <div class="checkbox-group">
+              <label class="checkbox-item">
+                <input type="checkbox" name="source" value="friend"> Friend
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="source" value="tis-academy"> TS Academy
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="source" value="others"> Others
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit-btn">Submit &nbsp; <i class="chevron-right">></i></button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <h3>About</h3>
+        <p>small text about what you are trying to achieve here</p>
+      </div>
+
+      <hr class="footer-divider">
+
+      <div class="footer-bottom">
+        <div class="copyright">
+          &copy;2025 Ezeokenwa & Kenneth C. All rights reserved
+        </div>
+        <div class="footer-links">
+          <a href="#">Privacy & Policy</a>
+          <a href="#">Terms & Condition</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
